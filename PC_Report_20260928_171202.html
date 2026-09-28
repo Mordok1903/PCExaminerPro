@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reporte de PC - 2026-09-28 17:12:17</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0d1117; color: #e6edf3; padding: 20px; }
+  h1 { color: #58a6ff; text-align: center; margin-bottom: 10px; font-size: 2em; }
+  .subtitle { text-align: center; color: #8b949e; margin-bottom: 30px; }
+  .section { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+  .section h2 { color: #58a6ff; margin-bottom: 15px; font-size: 1.2em; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 0.85em; font-weight: bold; }
+  .badge-BUENO { background: #196c2e; color: #3fb950; }
+  .badge-ADVERTENCIA { background: #9e6a03; color: #e3b341; }
+  .badge-CRITICO { background: #da3633; color: #ff8080; }
+  .badge-INFO { background: #0d419d; color: #58a6ff; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th { background: #1c2128; color: #8b949e; text-align: left; padding: 8px 12px; font-size: 0.9em; }
+  td { padding: 8px 12px; border-bottom: 1px solid #21262d; font-size: 0.9em; }
+  tr:hover td { background: #1c2128; }
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+  .stat-card { background: #1c2128; border-radius: 8px; padding: 15px; }
+  .stat-value { font-size: 1.8em; font-weight: bold; color: #58a6ff; }
+  .stat-label { color: #8b949e; font-size: 0.85em; margin-top: 5px; }
+  .footer { text-align: center; color: #8b949e; margin-top: 30px; font-size: 0.85em; }
+  .progress-bar { background: #21262d; border-radius: 4px; height: 8px; margin-top: 5px; }
+  .progress-fill { height: 100%; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>PC Examiner Pro - Reporte de Diagnostico</h1>
+<p class="subtitle">Generado: 2026-09-28 17:12:17 | Host: LAPTOP-459SSTA7</p>
+<div class="section">
+<h2>Informacion del Sistema</h2>
+<div class="stat-grid"><div class="stat-card">
+<div class="stat-label">Sistema Operativo</div>
+<div style="font-size:1em; margin-top:5px; color:#e6edf3;">Windows 11 10.0.26200</div>
+</div><div class="stat-card">
+<div class="stat-label">Procesador</div>
+<div style="font-size:1em; margin-top:5px; color:#e6edf3;">Intel64 Family 6 Model 140 Stepping 1, GenuineInte</div>
+</div><div class="stat-card">
+<div class="stat-label">Hostname</div>
+<div style="font-size:1em; margin-top:5px; color:#e6edf3;">LAPTOP-459SSTA7</div>
+</div><div class="stat-card">
+<div class="stat-label">Tiempo activo</div>
+<div style="font-size:1em; margin-top:5px; color:#e6edf3;">0h 57m</div>
+</div><div class="stat-card">
+<div class="stat-label">Ultimo inicio</div>
+<div style="font-size:1em; margin-top:5px; color:#e6edf3;">2026-09-28 16:14:19</div>
+</div></div></div><div class="section"><h2>Estado de los Discos</h2><table><tr><th>Unidad</th><th>Sistema Arch.</th><th>Total</th><th>Usado</th><th>Libre</th><th>Uso</th><th>Estado</th></tr><tr>
+<td>C:\</td>
+<td>NTFS</td>
+<td>237.11 GB</td>
+<td>177.24 GB</td>
+<td>59.87 GB</td>
+<td><span>74.7%</span><div class="progress-bar"><div class="progress-fill" style="width:74.7%; background:#3fb950;"></div></div></td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+</tr><tr>
+<td>D:\</td>
+<td>NTFS</td>
+<td>931.51 GB</td>
+<td>280.62 GB</td>
+<td>650.89 GB</td>
+<td><span>30.1%</span><div class="progress-bar"><div class="progress-fill" style="width:30.1%; background:#3fb950;"></div></div></td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+</tr></table></div><div class="section">
+<h2>CPU y Memoria RAM</h2>
+<div class="stat-grid">
+<div class="stat-card"><div class="stat-value">18.5%</div><div class="stat-label">Uso promedio CPU</div></div>
+<div class="stat-card"><div class="stat-value">89.6%</div><div class="stat-label">Uso RAM (6.86 / 7.65 GB)</div></div>
+<div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Nucleos fisicos (8 hilos)</div></div>
+<div class="stat-card"><div class="stat-value">1100.0 MHz</div><div class="stat-label">Frecuencia CPU actual</div></div>
+</div></div><div class="section"><h2>Seguridad</h2>
+<table><tr><th>Verificacion</th><th>Estado</th><th>Valor</th></tr><tr>
+<td>Windows Defender (Servicio)</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Activo</td>
+</tr><tr>
+<td>Proteccion en Tiempo Real</td>
+<td><span class="badge badge-CRITICO">CRITICO</span></td>
+<td>Inactiva</td>
+</tr><tr>
+<td>Proteccion Anti-Spyware</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Activa</td>
+</tr><tr>
+<td>Ultimo escaneo rapido</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Hace 0 dias</td>
+</tr><tr>
+<td>Firewall (Domain)</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Activo</td>
+</tr><tr>
+<td>Firewall (Private)</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Activo</td>
+</tr><tr>
+<td>Firewall (Public)</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Activo</td>
+</tr><tr>
+<td>Control de Cuentas de Usuario (UAC)</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+<td>Activo</td>
+</tr><tr>
+<td>Actualizaciones Automaticas</td>
+<td><span class="badge badge-INFO">INFO</span></td>
+<td>No se pudo verificar</td>
+</tr></table></div><div class="section">
+<h2>Archivos Temporales</h2>
+<p style="margin-bottom:10px;">Total detectado: <strong style="color:#e3b341;">0.088 GB (90.54 MB)</strong></p><table><tr><th>Ubicacion</th><th>Tamano</th></tr><tr><td>Carpeta TEMP del usuario</td><td>45.1 MB</td></tr><tr><td>Carpeta TMP del usuario</td><td>45.1 MB</td></tr><tr><td>Carpeta TEMP de Windows</td><td>0.0 MB</td></tr><tr><td>Prefetch de Windows</td><td>0.35 MB</td></tr><tr><td>Caché Chrome</td><td>0.0 MB</td></tr><tr><td>Caché Edge</td><td>0.0 MB</td></tr><tr><td>Caché Firefox</td><td>0.0 MB</td></tr></table></div><div class="section"><h2>Conectividad de Red</h2><table><tr><th>Servidor</th><th>IP</th><th>Latencia</th><th>Estado</th></tr><tr>
+<td>Google DNS</td>
+<td>8.8.8.8</td>
+<td>53 ms</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+</tr><tr>
+<td>Cloudflare</td>
+<td>1.1.1.1</td>
+<td>52 ms</td>
+<td><span class="badge badge-BUENO">BUENO</span></td>
+</tr></table></div><div class="section">
+<h2>Programas de Inicio (24 encontrados)</h2><table><tr><th>Nombre</th><th>Comando</th><th>Ubicacion</th></tr><tr><td>HPSEU_Host_Launcher</td><td style='font-size:0.8em;'>C:\Program Files\HP\HP System Event Utility\Host Launcher\HpseuHostLauncher.exe</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>OneDrive</td><td style='font-size:0.8em;'>"C:\Users\jpdav\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>GoogleDriveFS</td><td style='font-size:0.8em;'>"C:\Program Files\Google\Drive File Stream\131.0.2.0\GoogleDriveFS.exe" --startu...</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>com.squirrel.Teams.Teams</td><td style='font-size:0.8em;'>C:\Users\jpdav\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.ex...</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Mozilla-Firefox-308046B0AF4A39CB</td><td style='font-size:0.8em;'>"C:\Program Files\Mozilla Firefox\firefox.exe" -os-autostart</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>RiotClient</td><td style='font-size:0.8em;'>C:\Riot Games\Riot Client\RiotClientServices.exe --launch-background-mode</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Mathworks Service Host</td><td style='font-size:0.8em;'>C:\Users\jpdav\AppData\Local\MathWorks\ServiceHost\v2024.7.0.6\bin\win64\MathWor...</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Adobe Acrobat Synchronizer</td><td style='font-size:0.8em;'>"C:\Program Files\Adobe\Acrobat DC\Acrobat\AdobeCollabSync.exe"</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>MicrosoftEdgeAutoLaunch_5AE204C7A01CF54F0E8CCC5F8A5AFAF6</td><td style='font-size:0.8em;'>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-startup-wind...</td><td>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>SecurityHealth</td><td style='font-size:0.8em;'>%windir%\system32\SecurityHealthSystray.exe</td><td>HKLM\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>RtkAudUService</td><td style='font-size:0.8em;'>"C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_9d3a924...</td><td>HKLM\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>XMouseButtonControl</td><td style='font-size:0.8em;'>C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\XMouseButtonC...</td><td>HKLM\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Autodesk Access Service</td><td style='font-size:0.8em;'>"C:\Program Files\Autodesk\AdODIS\V1\Setup\AdskAccessService.exe" --autoLaunch</td><td>HKLM\Software\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Dropbox</td><td style='font-size:0.8em;'>"C:\Program Files (x86)\Dropbox\Client\Dropbox.exe" /systemstartup</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>BrStsMon00</td><td style='font-size:0.8em;'>C:\Program Files (x86)\Browny02\Brother\BrStMonW.exe /AUTORUN</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Apex One NT Monitor</td><td style='font-size:0.8em;'>"C:\Program Files (x86)\Trend Micro\Security Agent\pccntmon.exe" -HideWindow</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>OfficeScanNT Monitor</td><td style='font-size:0.8em;'>"C:\Program Files (x86)\Trend Micro\Security Agent\pccntmon.exe" -HideWindow</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Autodesk Genuine Service </td><td style='font-size:0.8em;'>C:\Program Files\Autodesk\Genuine Service\GenuineService.exe</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Vision One Agent Console</td><td style='font-size:0.8em;'>C:\Program Files (x86)\Trend Micro\Vision One agent\Console\VOneAgentConsoleTray...</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>Intel® Graphics Software</td><td style='font-size:0.8em;'>"C:\Program Files\Intel\Intel Graphics Software\IntelGraphicsSoftware.exe" -s</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>ControlCenter4</td><td style='font-size:0.8em;'>C:\Program Files (x86)\ControlCenter4\BrCcBoot.exe /autorun</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>BrHelp</td><td style='font-size:0.8em;'>C:\Program Files (x86)\Brother\Brother Help\BrotherHelp.exe /AUTORUN</td><td>HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run</td></tr><tr><td>desktop.ini</td><td style='font-size:0.8em;'>C:\Users\jpdav\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\des...</td><td>Carpeta Startup</td></tr><tr><td>desktop.ini</td><td style='font-size:0.8em;'>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini</td><td>Carpeta Startup</td></tr></table></div>
+<div class="footer">
+  <p>Generado por PC Examiner Pro | 2026-09-28 17:12:17</p>
+  <p>Reporte de diagnostico del sistema</p>
+</div>
+</body>
+</html>
